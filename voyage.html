@@ -1,0 +1,987 @@
+<!doctype html>
+<html>
+
+<head>
+  <title>Travel With Us</title>
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Your CSS -->
+  <link rel="stylesheet" type="text/css" href="voyage.css">
+
+  <!--logo link-->
+   <link rel="shortcut icon" href="./logo2.png" type="image"/>
+  <!--media query-->
+  <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+
+  <!--Fontawesome icon-->
+  <link rel="stylesheet" 
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+
+</head>
+
+<body>
+
+  <!--===============NAV BAR=====================-->
+
+  <nav class="navbar navbar-expand-lg navbar-light custom-navbar">
+    <div class="container-fluid">
+
+      <!-- Logo -->
+      <a class="navbar-brand" href="#">
+        <img class="navbar-logo" src="./boat.png" alt="nav-logo img" />
+      </a>
+
+      <!-- Toggle -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Menu -->
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav ms-auto text-lg-start text-end">
+          <a class="nav-link fw-bolder" href="#home">Home</a>
+          <a class="nav-link fw-bolder" href="#Destination">Destination</a>
+          <a class="nav-link fw-bolder" href="#Packages">Packages</a>
+          <a class="nav-link fw-bolder" href="#Travel">Travel Guide</a>
+          <a class="nav-link fw-bolder" href="#Activities">Activities</a>
+          <a class="nav-link fw-bolder" href="#Services">Services</a>
+          <a class="nav-link fw-bolder" href="#Contact">Contact</a>
+        </div>
+      </div>
+
+    </div>
+  </nav>
+
+  <!--====================HERO SECTION======================-->
+
+  <!-- HERO -->
+  <section class="hero-section" id="home">
+
+    <div class="container hero-content text-center position-relative">
+      <!-- ROUTE IMAGE (TOP LAYER) -->
+      <img src="./route.png" class="route-img" alt="route">
+      <i class="fa-solid fa-plane plane-icon"></i>
+      <!-- CENTER IMAGE WITH OVERLAY TEXT -->
+      <div class="circle-wrapper">
+
+        <!-- LEFT OVERLAY TEXT -->
+        <div class="hero-left text-start">
+          <h1 class="hero-title">
+            Explore
+            The Wor<b class="colortext">ld</b> <br>
+            <span>with us</span>
+          </h1>
+
+          <button class="hero-btn">
+            Get Started &rightarrow;
+          </button>
+        </div>
+
+        <!-- CIRCLE IMAGE -->
+        <div class="circle-img">
+          <img src="./roundimg.png" alt="hero-img">
+        </div>
+
+        <!-- RIGHT LOWEST CONTENT -->
+        <div class="right-content">
+          <h2 class="trip-count">5k+</h2>
+          <h5>plan your trip</h5>
+          <p class="trip-text">
+            From serene beaches to majestic mountains,
+            we bring you closer to the world's most iconic gems.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--================ DESTINATIONS =================-->
+
+  <section class="destination-section py-5" id="Destination">
+
+    <div class="container">
+
+      <h2 class="text-center destination-title mb-5">Destinations</h2>
+
+      <div class="row g-4">
+        <!---ITEM 1-->
+        <div class="col-lg-4 col-sm-6 col-12">
+          <div class="destination-card">
+
+            <div class="card-inner">
+
+              <!-- FRONT -->
+              <div class="card-front">
+                <img src="./Property 1=Component 4.png" alt="">
+              </div>
+
+              <!-- BACK -->
+              <div class="card-back" style="background-image: url('./Property 1=Component 4.png');">
+
+                <div class="back-overlay">
+                  <h4>Munnar, Kerala</h4>
+                  <p class="price">&dollar;8,999 <span>/ 3 Days 2 Nights</span></p>
+                  <p class="desc">“Escape into Kerala’s rolling emerald paradise.”</p>
+
+                  <button class="book-btn">Book Now</button>
+                </div>
+
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+
+
+        <!-- Item 2 -->
+        <div class="col-lg-4 col-sm-6 col-12">
+          <div class="destination-card">
+
+            <div class="card-inner">
+
+              <!-- FRONT -->
+              <div class="card-front">
+                <img src="./component 8.png" alt="">
+              </div>
+
+              <!-- BACK -->
+              <div class="card-back" style="background-image: url('./component 8.png');">
+
+                <div class="back-overlay">
+                  <h4>Kettuvallam Cruise - Alappuzha</h4>
+                  <p class="price">&dollar;4,999<span>/ person (Day Cruise)</span></p>
+
+                  <p>&dollar;12,999 <span>/ Premium AC Deluxe Houseboat</span></p>
+                  <p class="desc">“Sail into serenity on a private floating paradise.”</p>
+
+                  <button class="book-btn">Book Now</button>
+                </div>
+
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+
+        <!-- Item 3 -->
+        <div class="col-lg-4 col-sm-6 col-12">
+          <div class="destination-card">
+
+            <div class="card-inner">
+
+              <!-- FRONT -->
+              <div class="card-front">
+                <img src="./Component 81.png" alt="">
+              </div>
+
+              <!-- BACK -->
+              <div class="card-back" style="background-image: url('./Component\ 81.png');">
+
+                <div class="back-overlay">
+                  <h4>Cheena Vala, Fort Kochi</h4>
+                  <p class="price">&dollar;2,499<span>/ Guided Beach Tour</span></p>
+                  <p class="desc">“Silhouettes of tradition painted by the setting sun.”</p>
+
+                  <button class="book-btn">Book Now</button>
+                </div>
+
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+
+        <!-- Item 4 -->
+        <div class="col-lg-4 col-sm-6 col-12">
+          <div class="destination-card">
+
+            <div class="card-inner">
+
+              <!-- FRONT -->
+              <div class="card-front">
+                <img src="./Property 1=Component 6.png" alt="">
+              </div>
+
+              <!-- BACK -->
+              <div class="card-back" style="background-image: url('./component 8.png');">
+
+                <div class="back-overlay">
+                  <h4>Lush Backwaters - Alappuzha</h4>
+                  <p class="price">&dollar;3,999 <span>/ Day Canoe Ride</span></p>
+                  <p class="desc">“Lose yourself in Kerala’s green water paradise.”</p>
+
+                  <button class="book-btn">Book Now</button>
+                </div>
+
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+
+        <!-- Item 5 -->
+        <div class="col-lg-4 col-sm-6 col-12">
+          <div class="destination-card">
+
+            <div class="card-inner">
+
+              <!-- FRONT -->
+              <div class="card-front">
+                <img src="./Component 812.png" alt="">
+              </div>
+
+              <!-- BACK -->
+              <div class="card-back" style="background-image: url('./Component 812.png');">
+
+                <div class="back-overlay">
+                  <h4>Periyar Wildlife Sanctuary, Kerala</h4>
+                  <p class="price">&dollar;₹9,999<span> / 2 Days Wildlife Retreat</span></p>
+                  <p class="desc">“Into the heart of Kerala’s untamed wilderness.”</p>
+
+                  <button class="book-btn">Book Now</button>
+                </div>
+
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+        <!-- Item 6 -->
+        <div class="col-lg-4 col-sm-6 col-12">
+          <div class="destination-card">
+
+            <div class="card-inner">
+
+              <!-- FRONT -->
+              <div class="card-front">
+                <img src="https://i.pinimg.com/1200x/9a/ea/98/9aea98d0b99310149ed6e16ad1fb2dbc.jpg" alt="">
+              </div>
+
+              <!-- BACK -->
+              <div class="card-back"
+                style="background-image: url('https://i.pinimg.com/1200x/9a/ea/98/9aea98d0b99310149ed6e16ad1fb2dbc.jpg');">
+
+                <div class="back-overlay">
+                  <h4>Tamarassery Churam – Wayanad Pass</h4>
+                  <p class="price">&dollar;3,999 <span>/ person (Scenic Drive + Viewpoint)</span></p>
+                  <p class="desc">“Seven hairpin bends, endless mountain thrills.”</p>
+
+                  <button class="book-btn">Book Now</button>
+                </div>
+
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+  <!-- ================= PACKAGES SECTION ================= -->
+
+  <section class="packages-main py-5" id="Packages">
+    <div class="container">
+
+      <h2 class="packages-title text-center">
+        Packages
+        <span>Kerala</span>
+      </h2>
+
+      <div id="packageCarousel" class="carousel slide">
+
+        <div class="carousel-inner">
+
+          <!-- SLIDE 1 -->
+          <div class="carousel-item active">
+            <div class="row g-4 package-row">
+
+              <div class="col-lg-4 d-flex">
+                <div class="package-card big-img">
+                  <img src="./pckbig1.png" class="package-img w-100">
+
+                  <div class="package-info top-right">
+                    <h5>Banasura sagar dam</h5>
+                  </div>
+
+                  <div class="package-info bottom-left">
+                    <p>₹8,999</p>
+                  </div>
+                </div>
+
+              </div>
+
+              <div class="col-lg-8 d-flex flex-column justify-content-end ">
+                <div class="row g-4">
+                  <div class="col-md-6">
+                    <div class="package-card small-img">
+                      <img src="https://i.pinimg.com/736x/ca/36/92/ca3692dc780cc997d519a4196cd716db.jpg"
+                        class="package-img">
+
+                      <div class="package-info top-right">
+                        <h6>Wonderla Kochi</h6>
+                      </div>
+
+                      <div class="package-info bottom-left">
+                        <p>₹7,999</p>
+                      </div>
+                    </div>
+
+                  </div>
+                  <div class="col-md-6">
+                    <div class="package-card small-img">
+                      <img src="https://i.pinimg.com/1200x/81/6f/b1/816fb162033be8f2fd0a7347a625b112.jpg"
+                        class="package-img">
+
+                      <div class="package-info top-right">
+                        <h6>Suspension bridge</h6>
+                      </div>
+
+                      <div class="package-info bottom-left">
+                        <p>₹5,999</p>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <!-- SLIDE 2 -->
+          <div class="carousel-item">
+            <div class="row g-4 package-row">
+
+              <div class="col-lg-4 d-flex">
+                <div class="package-card big-img">
+                  <img src="https://i.pinimg.com/736x/d9/9d/7d/d99d7da42c7a594c5ced424813075058.jpg"
+                    class="package-img w-100">
+
+                  <div class="package-info top-right">
+                    <h5>jatayu earth centre</h5>
+                  </div>
+
+                  <div class="package-info bottom-left">
+                    <p>₹9,999</p>
+                  </div>
+                </div>
+
+              </div>
+
+              <div class="col-lg-8 d-flex flex-column justify-content-end">
+                <div class="row g-4">
+                  <div class="col-md-6">
+                    <div class="package-card small-img">
+                      <img src="https://i.pinimg.com/1200x/17/7a/88/177a885a1f54a85dd1d33c1ded7a5197.jpg"
+                        class="package-img">
+
+                      <div class="package-info top-right">
+                        <h6>Temple</h6>
+                      </div>
+
+                      <div class="package-info bottom-left">
+                        <p>₹3,999</p>
+                      </div>
+                    </div>
+
+                  </div>
+                  <div class="col-md-6">
+                    <div class="package-card small-img">
+                      <img src="https://i.pinimg.com/736x/22/89/80/22898087e55194993e97850a02d3b20c.jpg"
+                        class="package-img">
+
+                      <div class="package-info top-right">
+                        <h6>Illikkal kallu</h6>
+                      </div>
+
+                      <div class="package-info bottom-left">
+                        <p>₹4,999</p>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+        <!-- CONTROLS -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#packageCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </button>
+
+        <button class="carousel-control-next" type="button" data-bs-target="#packageCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </button>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ================= TRIP PLACES SECTION ================= -->
+
+  <section class="trip-places py-5" id="Travel">
+
+    <img src="./route2.png" class="route2-img" alt="route">
+    <div class="container">
+
+      <h2 class="text-center trip-title mb-5">Trip Place</h2>
+
+      <!-- ====== ITEM 1 ====== -->
+      <div class="row align-items-center trip-item mb-5">
+        <div class="col-lg-6">
+          <div class="trip-img left-shape">
+            <img src="./tp1.png">
+          </div>
+        </div>
+
+        <div class="col-lg-6">
+          <div class="trip-content text-bg-1">
+            <h3>Himalayan Ride</h3>
+            <p>
+              The distance between Papua New Guinea and Bali is 3533 km. It takes approximately 12h 34m to get from
+              Papua New Guinea to Bali, including transfers.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- ====== ITEM 2 ====== -->
+      <div class="row align-items-center trip-item flex-lg-row-reverse mb-5">
+        <div class="col-lg-6">
+          <div class="trip-img right-shape">
+            <img src="./tp2.png">
+          </div>
+        </div>
+
+        <div class="col-lg-6">
+          <div class="trip-content text-bg-1">
+            <h3>Zipline Munnar</h3>
+            <p>
+              Munnar is a town in the Western Ghats mountain range in India’s Kerala state. A hill station and former
+              resort for the British Raj elite, it's surrounded by rolling hills dotted with tea plantations established
+              in the late 19th century.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- ====== ITEM 3 ====== -->
+      <div class="row align-items-center trip-item mb-5">
+        <div class="col-lg-6">
+          <div class="trip-img left-shape">
+            <img src="./tp3.png">
+          </div>
+        </div>
+
+        <div class="col-lg-6">
+          <div class="trip-content text-bg-1">
+            <h3>Glass Bridge</h3>
+            <p>
+              Munnar is a town in the Western Ghats mountain range in India’s Kerala state. A hill station and former
+              resort for the British Raj elite, it's surrounded by rolling hills dotted with tea plantations established
+              in the late 19th century.
+            </p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+<!-- ================= ACTIVITIES SECTION ================= -->
+
+<section class="activities-section" id="Activities">
+  <div class="activities-bg"></div>
+
+  <div class="container text-center">
+    <h2 class="activities-title">Top 10 Activities</h2>
+
+    <div class="activities-wrapper">
+      <div class="activities-track">
+
+        <!-- CARD 1 -->
+        <div class="activity-card">
+          <span class="activity-number">1</span>
+          <img src="https://i.pinimg.com/736x/bb/d3/75/bbd375a30a993a7c2b1834af33f7e833.jpg">
+          <div class="activity-overlay">
+            <h5>BOATING</h5>
+          </div>
+        </div>
+
+        <!-- CARD 2 -->
+        <div class="activity-card">
+          <span class="activity-number">2</span>
+          <img src="https://i.pinimg.com/1200x/96/a9/c0/96a9c0065f0e6ff66312c0945f80ead0.jpg">
+          <div class="activity-overlay">
+            <h5>Paragliding</h5>
+          </div>
+        </div>
+
+        <!-- CARD 3 -->
+        <div class="activity-card">
+          <span class="activity-number">3</span>
+          <img src="https://i.pinimg.com/736x/7b/e0/d7/7be0d7215593f3b469f453294c6a3285.jpg">
+          <div class="activity-overlay">
+            <h5>FESTIVAL</h5>
+          </div>
+        </div>
+        <!-- CARD 4 -->
+        <div class="activity-card">
+          <span class="activity-number">4</span>
+          <img src="https://i.pinimg.com/1200x/19/a0/72/19a072aab9eef61fd667760ccc46caf8.jpg">
+          <div class="activity-overlay">
+            <h5>Trekking</h5>
+          </div>
+        </div>
+        <!-- CARD 5 -->
+        <div class="activity-card">
+          <span class="activity-number">5</span>
+          <img src="https://i.pinimg.com/1200x/8d/f6/80/8df680d624ec70897478ef180a991131.jpg">
+          <div class="activity-overlay">
+            <h5>Wonderla</h5>
+          </div>
+        </div>
+        <!-- CARD 6 -->
+        <div class="activity-card">
+          <span class="activity-number">6</span>
+          <img src="https://i.pinimg.com/736x/3c/a4/5c/3ca45cb503e55dae81c96f6844afca86.jpg">
+          <div class="activity-overlay">
+            <h5>Bridge Walk</h5>
+          </div>
+        </div>
+        <!-- CARD 7 -->
+        <div class="activity-card">
+          <span class="activity-number">7</span>
+          <img src="https://i.pinimg.com/736x/8b/89/96/8b8996203a595e4ae1238ad4a2a10b78.jpg">
+          <div class="activity-overlay">
+            <h5>Temple Visit</h5>
+          </div>
+        </div>
+        <!-- CARD 8 -->
+        <div class="activity-card">
+          <span class="activity-number">8</span>
+          <img src="https://i.pinimg.com/736x/f8/33/84/f833847605d5c69974ea540c4eac8d06.jpg">
+          <div class="activity-overlay">
+            <h5>Hill Ride</h5>
+          </div>
+        </div>
+        <!-- CARD 9 -->
+        <div class="activity-card">
+          <span class="activity-number">9</span>
+          <img src="https://i.pinimg.com/736x/76/cf/49/76cf49c112e8475e7206d0bd0d985977.jpg">
+          <div class="activity-overlay">
+            <h5>Wildlife</h5>
+          </div>
+        </div>
+        <!-- CARD 10 -->
+        <div class="activity-card">
+          <span class="activity-number">10</span>
+          <img src="https://i.pinimg.com/1200x/1f/cc/f1/1fccf111a972587d9c072f8381018c70.jpg">
+          <div class="activity-overlay">
+            <h5>Beach Fun</h5>
+          </div>
+        </div>
+       
+        <!-- Add upto 10 cards same structure -->
+         <!-- CARD 1 -->
+        <div class="activity-card">
+          <span class="activity-number">1</span>
+          <img src="https://i.pinimg.com/736x/bb/d3/75/bbd375a30a993a7c2b1834af33f7e833.jpg">
+          <div class="activity-overlay">
+            <h5>BOATING</h5>
+          </div>
+        </div>
+
+        <!-- CARD 2 -->
+        <div class="activity-card">
+          <span class="activity-number">2</span>
+          <img src="https://i.pinimg.com/1200x/96/a9/c0/96a9c0065f0e6ff66312c0945f80ead0.jpg">
+          <div class="activity-overlay">
+            <h5>Paragliding</h5>
+          </div>
+        </div>
+
+        <!-- CARD 3 -->
+        <div class="activity-card">
+          <span class="activity-number">3</span>
+          <img src="https://i.pinimg.com/736x/7b/e0/d7/7be0d7215593f3b469f453294c6a3285.jpg">
+          <div class="activity-overlay">
+            <h5>FESTIVAL</h5>
+          </div>
+        </div>
+        <!-- CARD 4 -->
+        <div class="activity-card">
+          <span class="activity-number">4</span>
+          <img src="https://i.pinimg.com/1200x/19/a0/72/19a072aab9eef61fd667760ccc46caf8.jpg">
+          <div class="activity-overlay">
+            <h5>Trekking</h5>
+          </div>
+        </div>
+        <!-- CARD 5 -->
+        <div class="activity-card">
+          <span class="activity-number">5</span>
+          <img src="https://i.pinimg.com/1200x/8d/f6/80/8df680d624ec70897478ef180a991131.jpg">
+          <div class="activity-overlay">
+            <h5>Wonderla</h5>
+          </div>
+        </div>
+        <!-- CARD 6 -->
+        <div class="activity-card">
+          <span class="activity-number">6</span>
+          <img src="https://i.pinimg.com/736x/3c/a4/5c/3ca45cb503e55dae81c96f6844afca86.jpg">
+          <div class="activity-overlay">
+            <h5>Bridge Walk</h5>
+          </div>
+        </div>
+        <!-- CARD 7 -->
+        <div class="activity-card">
+          <span class="activity-number">7</span>
+          <img src="https://i.pinimg.com/736x/8b/89/96/8b8996203a595e4ae1238ad4a2a10b78.jpg">
+          <div class="activity-overlay">
+            <h5>Temple Visit</h5>
+          </div>
+        </div>
+        <!-- CARD 8 -->
+        <div class="activity-card">
+          <span class="activity-number">8</span>
+          <img src="https://i.pinimg.com/736x/f8/33/84/f833847605d5c69974ea540c4eac8d06.jpg">
+          <div class="activity-overlay">
+            <h5>Hill Ride</h5>
+          </div>
+        </div>
+        <!-- CARD 9 -->
+        <div class="activity-card">
+          <span class="activity-number">9</span>
+          <img src="https://i.pinimg.com/736x/76/cf/49/76cf49c112e8475e7206d0bd0d985977.jpg">
+          <div class="activity-overlay">
+            <h5>Wildlife</h5>
+          </div>
+        </div>
+        <!-- CARD 10 -->
+        <div class="activity-card">
+          <span class="activity-number">10</span>
+          <img src="https://i.pinimg.com/1200x/1f/cc/f1/1fccf111a972587d9c072f8381018c70.jpg">
+          <div class="activity-overlay">
+            <h5>Beach Fun</h5>
+          </div>
+        </div>
+    
+      </div> 
+    </div>
+
+    <div class="text-start">
+  <button class="activity-btn">Booking</button>
+</div>
+  </div>
+</section>
+
+<!-- ================= SERVICES SECTION ================= -->
+
+<section class="services-section" id="Services">
+
+  <div class="container-fluid background text-center">
+
+    <h2 class="services-title pt-5">Explore Our Services</h2>
+    <p class="services-subtitle">
+      From serene beaches to majestic mountains, we bring you closer to the world's most iconic and hidden gems.
+      Start your travel story today with tailored experiences, trusted guides, and seamless bookings.
+    </p>
+
+   <div class="services-wrapper">
+
+  <!-- SERVICE 1 -->
+  <div class="service-card">
+    <img src="./os-l1.png" alt="Waterfalls">
+    <div class="service-overlay">
+      <h5>Cityscape</h5>
+      <a href="https://www.gokite.travel/beautiful-towns-and-cities-to-visit-in-kerala/" target="_blank" class="arrow-btn">
+        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+      </a>
+    </div>
+  </div>
+
+  <!-- SERVICE 2 -->
+  <div class="service-card">
+    <img src="./os-l2.png" alt="Mountains">
+    <div class="service-overlay">
+      <h5>Backwaters</h5>
+      <a href="https://keralatourism.travel/backwaters-in-kerala" target="_blank" class="arrow-btn">
+        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+      </a>
+    </div>
+  </div>
+
+  <!-- SERVICE 3 -->
+  <div class="service-card">
+    <img src="./os-center.png" alt="FALLS">
+    <div class="service-overlay">
+      <h5>Cascade</h5>
+      <a href="https://www.trawell.in/kerala/waterfalls" target="_blank" class="arrow-btn">
+        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+      </a>
+    </div>
+  </div>
+
+  <!-- SERVICE 4 -->
+  <div class="service-card">
+    <img src="https://i.pinimg.com/1200x/6d/73/5f/6d735f0a2368a80f47527ed996143e74.jpg" alt="Beach">
+    <div class="service-overlay">
+      <h5>Paradise</h5>
+      <a href="https://www.tripadvisor.in/Attractions-g297631-Activities-c61-t52-Kerala.html" target="_blank" class="arrow-btn">
+        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+      </a>
+    </div>
+  </div>
+
+  <!-- SERVICE 5 -->
+  <div class="service-card">
+    <img src="./os-r2.png" alt="Forest">
+    <div class="service-overlay">
+      <h5>Highlands</h5>
+      <a href="https://www.trawell.in/kerala/hill-stations" target="_blank" class="arrow-btn">
+        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+      </a>
+    </div>
+  </div>
+
+</div>
+
+  </div>
+
+  <!-- Trust PART -->
+ <div class="trust-section">
+
+    <h2>Why Trust us</h2>
+
+    <div class="trust-main">
+
+        <div class="trust-percentage">
+            <span class="big-number">99</span>
+            <span class="percent">%</span>
+        </div>
+
+        <div class="trust-content">
+            <p class="trust-text">
+                No hidden charges, no last-minute surprises.What you see is what you pay.No hidden charges, no <span class="text-info">last -minute surprises.</span>
+            </p>
+        </div>
+
+    </div>
+
+    <div class="trust-features">
+
+        <div class="feature">
+            <h3>CERTIFIED & RELIABLE</h3>
+            <p>We partner only with government-approved tour operators, licensed guides, and verified accommodations.</p>
+        </div>
+
+        <div class="feature">
+            <h3>TRANSPARENT PRICING</h3>
+            <p>No hidden charges, no last-minute surprises. What you see is what you pay.</p>
+        </div>
+
+        <div class="feature">
+            <h3>SAFE & SECURE</h3>
+            <p>Your safety is our top priority, from secure bookings to verified transportation, We ensure peace of mind throughout your journey.</p>
+        </div>
+
+    </div>
+
+</div>
+</section>
+
+<section class="testimonial-section">
+    <h2 class="testimonial-title">Testimonial</h2>
+
+    <div class="strip-wrapper">
+        <div class="strip-rotate">
+  
+        <div class="strip">
+
+            <div class="testimonial-item">
+                <img src="./roshini.jpeg">
+                <h5>Roshini</h5>
+                <p>
+                    "Everything was perfectly organized from start to finish.
+        The hotels were clean, the guides were friendly, and the
+        entire trip felt stress-free and enjoyable."
+                </p>
+                <div class="stars">★★★★★</div>
+            </div>
+
+            <div class="testimonial-item">
+                <img src="./sj.jpeg">
+                <h5>Sandy</h5>
+                <p>
+                    "I absolutely loved the experience! Booking was simple,
+        customer support was responsive, and the destinations
+        were even more beautiful than expected."
+                </p>
+                <div class="stars">★★★★★</div>
+            </div>
+
+            <div class="testimonial-item">
+                <img src="./pv.jpeg">
+                <h5>Praba</h5>
+                <p>
+                  "This was my first time booking online for a full tour package,
+        and I’m so glad I chose this service. Everything went smoothly
+        without any last-minute issues."
+                </p>
+                <div class="stars">★★★★★</div>
+            </div>
+
+            <div class="testimonial-item">
+                <img src="./ss.jpeg">
+                <h5>Susi</h5>
+                <p>
+                    "The attention to detail was impressive. From airport pickup
+        to hotel check-in, everything was handled professionally.
+        Highly recommended for family trips."
+                </p>
+                <div class="stars">★★★★★</div>
+            </div>
+
+            <div class="testimonial-item">
+                <img src="./mss.jpeg">
+                <h5>Manisha</h5>
+                <p>
+                   "A truly memorable vacation! The itinerary was well planned,
+        giving us enough time to explore and relax. I will definitely
+        book again for my next holiday."
+                </p>
+                <div class="stars">★★★★★</div>
+            </div>
+            
+            <!-- duplicate for smooth infinite effect -->
+            <div class="testimonial-item">
+                <img src="./roshini.jpeg">
+                <h5>Roshini</h5>
+                <p>
+                    "Everything was perfectly organized from start to finish.
+        The hotels were clean, the guides were friendly, and the
+        entire trip felt stress-free and enjoyable."
+                </p>
+                <div class="stars">★★★★★</div>
+            </div>
+
+            <div class="testimonial-item">
+                <img src="./sj.jpeg">
+                <h5>Sandy</h5>
+                <p>
+                     "I absolutely loved the experience! Booking was simple,
+        customer support was responsive, and the destinations
+        were even more beautiful than expected."
+                </p>
+                <div class="stars">★★★★★</div>
+            </div>
+
+            <div class="testimonial-item">
+                <img src="./pv.jpeg">
+                <h5>Praba</h5>
+                <p>
+                    
+        "This was my first time booking online for a full tour package,
+        and I’m so glad I chose this service. Everything went smoothly
+        without any last-minute issues."
+                </p>
+                <div class="stars">★★★★★</div>
+            </div>
+
+            <div class="testimonial-item">
+                <img src="./ss.jpeg">
+                <h5>Susi</h5>
+                <p>
+                    "The attention to detail was impressive. From airport pickup
+        to hotel check-in, everything was handled professionally.
+        Highly recommended for family trips."
+                </p>
+                <div class="stars">★★★★★</div>
+            </div>
+
+            <div class="testimonial-item">
+                <img src="./mss.jpeg">
+                <h5>Manisha</h5>
+                <p>
+                    "A truly memorable vacation! The itinerary was well planned,
+        giving us enough time to explore and relax. I will definitely
+        book again for my next holiday."
+                </p>
+                <div class="stars">★★★★★</div>
+            </div>
+           </div>
+        </div>
+    </div>
+</section>
+<!--============================ Footer===================================-->
+<section class="footer-section" id="Contact">
+    <div class="footer-overlay">
+        <div class="container">
+            <div class="row">
+
+                <!-- Column 1 -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <h2>Tourist</h2>
+                    <p>
+                        Booking through this site was the best decision.
+                        Everything from hotels to local tours was perfectly
+                        organized. Kerala felt like a dream.
+                    </p>
+                </div>
+                 <div class="col-lg-2"  ></div>
+                <!-- Column 2 -->
+                <div class="col-lg-2 col-md-4 mb-4">
+                    <h5>Navigation</h5>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#Packages">Packages</a></li>
+                        <li><a href="#Destination">Destinations</a></li>
+                        <li><a href="#Activities">Activities</a></li>
+                        <li><a href="#Travel">Travel Guide</a></li>
+                        <li><a href="#Services">Services</a></li>
+                        <li><a href="#Contact">Contact</a></li>
+                    </ul>
+                </div>
+
+                <!-- Column 3 -->
+                <div class="col-lg-2 col-md-4 mb-4">
+                    <h5>Quick Link</h5>
+                    <ul>
+                        <li><a href="#">Gallery</a></li>
+                        <li><a href="#">Activities</a></li>
+                        <li><a href="#">Packages</a></li>
+                        <li><a href="#">Activities</a></li>
+                    </ul>
+                </div>
+
+                <!-- Column 4 -->
+                <div class="col-lg-2 col-md-4 mb-4">
+                    <h5>Address</h5>
+                    <p>77 pilliyar kovil street</p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
